@@ -1,0 +1,40 @@
+//Name: Muhammad Junaid Iqbal
+//Class: BSCS (D)
+#include<iostream>
+using namespace std;
+#include<cmath>
+int jsum(int a, int b)
+{	return a+b;}
+int jsub(int a,int b)
+{	return a-b;}
+int jproduct(int a, int b)
+{	return a*b;}
+int jdivision(int a, int b)
+{	return a/b;}
+int main()
+{	int a,b, add,sub, product, division,quotient, remainder; 
+cin>>a; 
+cin>>b;	
+add = jsum(a,b);	
+cout<<"Sum of "<<a<<" and "<<b <<" is "<<add<<endl;
+		sub = jsub(a,b);
+	cout<<"Subtract of "<<a<<" and "<<b <<" is "<<sub<<endl;
+		product = jproduct(a,b);	cout<<"Product of "<<a<<" and "<<b <<" is "<<product<<endl;	
+	division = jdivision (a,b);	cout<<"Division of "<<a<<" and "<<b <<" is "<<division<<endl;	
+	cout<<"log of "<<a<<" is "<<log(a)<<endl;
+	cout<<"log of "<<b<<" is "<<log(b)<<endl;	
+	cout<<"Square Root of "<<a<<" is "<<sqrt(a)<<endl;
+	cout<<"Square Root of "<<b<<" is "<<sqrt(b)<<endl;	
+	quotient = a / b;	remainder = a % b;	
+	cout<<"Quotient of "<<a<<" and "<<b<<" is "<<quotient<<endl;
+	cout<<"remainder of "<<a<<" and "<<b<<" is "<<remainder<<endl;	
+	cout<<"sin of "<<a<<" is "<<sin(a)<<endl;	
+cout<<"sinh of "<<a<<" is "<<sinh(a)<<endl;	
+	cout<<"sin of "<<b<<" is "<<sin(b)<<endl;
+	cout<<"sinh of "<<b<<" is "<<sinh(b)<<endl;	
+	cout<<"tan of "<<a<<" is "<<tan(a)<<endl;	
+cout<<"tanh of "<<a<<" is "<<tanh(a)<<endl;	
+	cout<<"tan of "<<b<<" is "<<tan(b)<<endl;	
+cout<<"tanh of "<<b<<" is "<<tanh(b)<<endl;
+}
+    
